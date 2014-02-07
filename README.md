@@ -16,7 +16,7 @@ The needed Markdown footnotes syntax can be easily created by using Vim and
 
 Basically, it looks a lot like this:
 
-![Screenshot](https://raw.github.com/derdennis/sort-markdown-footnotes/master/footnote-sorting.gif)
+![Screenshot][2]
 
 
 Markdown does not care a bit about the order in which the footnotes appear in
@@ -41,9 +41,10 @@ And now just call `<Leader>fs` whenever I feel my footnotes should get sorted.
 
 ### Credits
 
-The whole script is based on the post [Tidying Markdown reference links][2] by
+The whole script is based on the post [Tidying Markdown reference links][3] by
 Dr. Drang.
 
+Sample text produced by the awesome [Samuel L. Ipsum][4].
 ### Caveats
 
 Do *not* place footnote reference links at the start of a line, bad things will
@@ -51,4 +52,6 @@ happen, your footnotes will be eaten by a grue.
 
 
 [1]: https://github.com/derdennis/vim-markdownfootnotes
-[2]: http://www.leancrew.com/all-this/2012/09/tidying-markdown-reference-links/
+[2]: https://raw.github.com/derdennis/sort-markdown-footnotes/master/footnote-sorting.gif
+[3]: http://www.leancrew.com/all-this/2012/09/tidying-markdown-reference-links/
+[4]: http://slipsum.com/
